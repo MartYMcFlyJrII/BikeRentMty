@@ -1,7 +1,7 @@
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/pages/book/pay_method/pay_method_widget.dart';
+import '/pages/book/bikes/bikes_widget.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -128,7 +128,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -223,7 +223,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -320,7 +320,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -417,7 +417,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -514,7 +514,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -611,7 +611,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -708,7 +708,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -805,7 +805,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -902,7 +902,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },
@@ -999,7 +999,7 @@ class _EntrysWidgetState extends State<EntrysWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PayMethodWidget(),
+                              builder: (context) => BikesWidget(),
                             ),
                           );
                         },

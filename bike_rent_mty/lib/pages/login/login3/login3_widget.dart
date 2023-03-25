@@ -95,14 +95,8 @@ class _Login3WidgetState extends State<Login3Widget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 0.0),
                               child: FFButtonWidget(
-                                onPressed: () async {
-                                  await Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          ChangePasswordWidget(),
-                                    ),
-                                  );
+                                onPressed: () {
+                                  print('Button-ForgotPassword pressed ...');
                                 },
                                 text: 'BikeRentMty',
                                 options: FFButtonOptions(

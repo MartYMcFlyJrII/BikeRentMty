@@ -99,7 +99,7 @@ class _BikesWidgetState extends State<BikesWidget>
                           'Select date',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).title3.override(
-                                fontFamily: 'Overpass',
+                                fontFamily: 'Outfit',
                                 fontSize: 22.0,
                               ),
                         ),
@@ -193,7 +193,7 @@ class _BikesWidgetState extends State<BikesWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
-                                              fontFamily: 'Product Sans',
+                                              fontFamily: 'Outfit',
                                               color: Color(0xFF1D2429),
                                               fontSize: 22.0,
                                               fontWeight: FontWeight.bold,
@@ -204,7 +204,7 @@ class _BikesWidgetState extends State<BikesWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
-                                              fontFamily: 'Product Sans',
+                                              fontFamily: 'Outfit',
                                               color: Color(0xFF4B39EF),
                                               fontSize: 22.0,
                                               fontWeight: FontWeight.bold,
@@ -224,7 +224,7 @@ class _BikesWidgetState extends State<BikesWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2
                                             .override(
-                                              fontFamily: 'Product Sans',
+                                              fontFamily: 'Outfit',
                                               color: Color(0xFF57636C),
                                               fontSize: 14.0,
                                               fontWeight: FontWeight.normal,
@@ -315,7 +315,7 @@ class _BikesWidgetState extends State<BikesWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
-                                              fontFamily: 'Product Sans',
+                                              fontFamily: 'Outfit',
                                               color: Color(0xFF1D2429),
                                               fontSize: 22.0,
                                               fontWeight: FontWeight.bold,
@@ -326,7 +326,7 @@ class _BikesWidgetState extends State<BikesWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
-                                              fontFamily: 'Product Sans',
+                                              fontFamily: 'Outfit',
                                               color: Color(0xFF4B39EF),
                                               fontSize: 22.0,
                                               fontWeight: FontWeight.bold,
@@ -346,7 +346,7 @@ class _BikesWidgetState extends State<BikesWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2
                                             .override(
-                                              fontFamily: 'Product Sans',
+                                              fontFamily: 'Outfit',
                                               color: Color(0xFF57636C),
                                               fontSize: 14.0,
                                               fontWeight: FontWeight.normal,

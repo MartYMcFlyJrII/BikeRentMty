@@ -3,7 +3,8 @@ export '/pages/book/rent_added_success/rent_added_success_widget.dart'
     show RentAddedSuccessWidget;
 export '/pages/home/profile_page/profile_page_widget.dart'
     show ProfilePageWidget;
-export '/pages/edit_profile/edit_profile_widget.dart' show EditProfileWidget;
+export '/pages/home/edit_profile/edit_profile_widget.dart'
+    show EditProfileWidget;
 export '/pages/login/change_password/change_password_widget.dart'
     show ChangePasswordWidget;
 export '/pages/book/review_confirm/review_confirm_widget.dart'

@@ -13,6 +13,16 @@ import 'package:provider/provider.dart';
 class SessionModel extends FlutterFlowModel {
   ///  State fields for stateful widgets in this page.
 
+  // State field(s) for CheckboxListTile widget.
+  bool? checkboxListTileValue1;
+  // State field(s) for CheckboxListTile widget.
+  bool? checkboxListTileValue2;
+  // State field(s) for CheckboxListTile widget.
+  bool? checkboxListTileValue3;
+  // State field(s) for CheckboxListTile widget.
+  bool? checkboxListTileValue4;
+  // State field(s) for CheckboxListTile widget.
+  bool? checkboxListTileValue5;
   // State field(s) for Timer widget.
   int timerMilliseconds1 = 0;
   String timerValue1 = StopWatchTimer.getDisplayTime(0, milliSecond: false);

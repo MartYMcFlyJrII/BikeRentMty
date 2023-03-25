@@ -173,7 +173,7 @@ class _ReviewConfirmWidgetState extends State<ReviewConfirmWidget> {
                                   ),
                                 ),
                                 Text(
-                                  '1 Adult Bike - 1 Kid Bike',
+                                  '2 Adult Bike - 3 Kid Bike',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -194,8 +194,8 @@ class _ReviewConfirmWidgetState extends State<ReviewConfirmWidget> {
                       children: [
                         ClipRRect(
                           borderRadius: BorderRadius.circular(50.0),
-                          child: Image.network(
-                            'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
+                          child: Image.asset(
+                            'assets/images/vecteezy_cute-puppy-or-dog-cartoon-illustration-animal-raising-hand_4343259.jpg',
                             width: 50.0,
                             height: 50.0,
                             fit: BoxFit.cover,
@@ -444,7 +444,7 @@ class _ReviewConfirmWidgetState extends State<ReviewConfirmWidget> {
                           ),
                     ),
                     Text(
-                      '\$7/hr',
+                      '\$17/hr',
                       style: FlutterFlowTheme.of(context).title3.override(
                             fontFamily: 'Outfit',
                             color: Color(0xFF14181B),
@@ -467,7 +467,7 @@ class _ReviewConfirmWidgetState extends State<ReviewConfirmWidget> {
                   padding:
                       EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
                   child: Text(
-                    'You may see a temporary hold on your payment method in the amount of your Taskers hourly rate of \$7. If the ride is not finished after 5 minutes by the end of the hour, we are going to charge an extra hour.',
+                    'You may see a temporary hold on your payment method in the amount of your Taskers hourly rate of \$17.00. If the ride is not finished after 5 minutes by the end of the hour, we are going to charge an extra hour.',
                     style: FlutterFlowTheme.of(context).bodyText2.override(
                           fontFamily: 'Outfit',
                           color: Color(0xFF57636C),

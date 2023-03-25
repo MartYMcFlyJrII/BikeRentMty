@@ -3,9 +3,12 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/bike_rent_mty/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bike_rent_mty (1)/bike_rent_mty/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bike_rent_mty (1)/bike_rent_mty/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bike_rent_mty (1)/bike_rent_mty/build" />
       <excludeFolder url="file://$MODULE_DIR$/bike_rent_mty/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/bike_rent_mty/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bike_rent_mty/.dart_tool" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

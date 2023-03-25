@@ -1,7 +1,8 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import '/pages/edit_profile/edit_profile_widget.dart';
+import '/pages/book/error_copy/error_copy_widget.dart';
+import '/pages/home/edit_profile/edit_profile_widget.dart';
 import '/pages/login/change_password/change_password_widget.dart';
 import '/pages/login/login2/login2_widget.dart';
 import 'package:flutter/material.dart';
@@ -314,35 +315,45 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget> {
                               width: 2.0,
                             ),
                           ),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    24.0, 0.0, 0.0, 0.0),
-                                child: Text(
-                                  'Support (Whatsapp bot)',
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyText1
-                                      .override(
-                                        fontFamily: 'Lexend Deca',
-                                        color: Color(0xFF090F13),
-                                        fontSize: 14.0,
-                                        fontWeight: FontWeight.normal,
-                                      ),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => ErrorCopyWidget(),
                                 ),
-                              ),
-                              Expanded(
-                                child: Align(
-                                  alignment: AlignmentDirectional(0.9, 0.0),
-                                  child: Icon(
-                                    Icons.arrow_forward_ios,
-                                    color: Color(0xFF95A1AC),
-                                    size: 18.0,
+                              );
+                            },
+                            child: Row(
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      24.0, 0.0, 0.0, 0.0),
+                                  child: Text(
+                                    'Support (Whatsapp bot)',
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Lexend Deca',
+                                          color: Color(0xFF090F13),
+                                          fontSize: 14.0,
+                                          fontWeight: FontWeight.normal,
+                                        ),
                                   ),
                                 ),
-                              ),
-                            ],
+                                Expanded(
+                                  child: Align(
+                                    alignment: AlignmentDirectional(0.9, 0.0),
+                                    child: Icon(
+                                      Icons.arrow_forward_ios,
+                                      color: Color(0xFF95A1AC),
+                                      size: 18.0,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
