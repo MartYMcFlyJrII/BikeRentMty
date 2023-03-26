@@ -179,7 +179,7 @@ class _Login2WidgetState extends State<Login2Widget> {
                                       children: [
                                         Expanded(
                                           child: Text(
-                                            'You can use our app by registering/login or you can enter as a guest. In the Book section you need to select the entry of  \"La fundidora \" park that you are closer, because there you will pick up and leave your bicycle.',
+                                            'You can use our app by registering/login. In the Book section you need to select the entry of  \"La fundidora \" park that you are closer, because there you will pick up and leave your bicycle.',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
                                                 .override(
